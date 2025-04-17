@@ -13,7 +13,7 @@ This project is a Java-based multi-threaded simulation of blockchain block minin
 
 ### Core Components
 
-#### Main Class (`da518`):
+#### Main Class (`BlockchainMine`):
 
 - **Metadata**:
   - `PREVIOUS_HASH`: Hash of the previous block (empty in this simulation).
@@ -54,13 +54,13 @@ cd <repository_directory>
 ### Compile the Program:
 
 ```bash
-javac da518.java
+javac <your-user>.java
 ```
 
 ### Run the Program:
 
 ```bash
-java da518
+java <your-user>
 ```
 
 ### Example Output:
@@ -84,11 +84,4 @@ Time taken: 12.34 seconds
 ### Concurrency:
 
 - The program leverages all CPU cores available, significantly speeding up mining by parallelizing nonce generation and hash validation.
-
-## Suggested Improvements
-
-- **Block Persistence**: Store successfully mined blocks in files or databases.
-- **Blockchain Implementation**: Extend the project to form a complete blockchain structure.
-- **Enhanced Network Simulation**: Simulate multiple miners competing to mine blocks.
-- **Further Performance Optimization**: Implement GPU-based mining or advanced multi-threading optimizations.
 
